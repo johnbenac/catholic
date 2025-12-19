@@ -1,0 +1,18 @@
+{
+  "type": "entity",
+  "id": "ent-pope-office",
+  "movementId": "mov-catholic",
+  "name": "The Pope",
+  "kind": "being",
+  "summary": "The bishop of Rome and visible head of the Catholic Church on earth.",
+  "notes": null,
+  "tags": [
+    "pope",
+    "office"
+  ],
+  "sourcesOfTruth": [
+    "Catholic tradition",
+    "Canon law"
+  ],
+  "sourceEntityIds": []
+}

@@ -1,0 +1,27 @@
+{
+  "type": "event",
+  "id": "ev-easter-sunday",
+  "movementId": "mov-catholic",
+  "name": "Easter Sunday",
+  "description": "The chief feast of the Church year, celebrating the resurrection of Jesus.",
+  "recurrence": "yearly",
+  "timingRule": "The Sunday after the first full moon following the northern spring equinox.",
+  "notes": null,
+  "tags": [
+    "easter",
+    "feast"
+  ],
+  "mainPracticeIds": [
+    "pr-sunday-mass"
+  ],
+  "mainEntityIds": [
+    "ent-jesus-christ",
+    "ent-easter-sunday"
+  ],
+  "readingTextIds": [
+    "txt-nt-gospels"
+  ],
+  "supportingClaimIds": [
+    "clm-trinity-central"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "text",
+  "id": "txt-nt-gospels",
+  "movementId": "mov-catholic",
+  "parentId": "txt-bible-root",
+  "level": "section",
+  "title": "Gospels",
+  "label": "New Testament Gospels",
+  "content": null,
+  "mainFunction": "story",
+  "tags": [
+    "gospels",
+    "story"
+  ],
+  "mentionsEntityIds": [
+    "ent-jesus-christ",
+    "ent-virgin-mary"
+  ]
+}

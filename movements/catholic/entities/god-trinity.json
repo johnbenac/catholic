@@ -1,0 +1,20 @@
+{
+  "type": "entity",
+  "id": "ent-god-trinity",
+  "movementId": "mov-catholic",
+  "name": "The Holy Trinity",
+  "kind": "being",
+  "summary": "One God in three distinct persons: Father, Son, and Holy Spirit, the central mystery of Catholic faith and life.",
+  "notes": null,
+  "tags": [
+    "god",
+    "trinity"
+  ],
+  "sourcesOfTruth": [
+    "Catechism of the Catholic Church",
+    "Nicene Creed"
+  ],
+  "sourceEntityIds": [
+    "ent-catechism"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "entity",
+  "id": "ent-heaven",
+  "movementId": "mov-catholic",
+  "name": "Heaven",
+  "kind": "place",
+  "summary": "The state of eternal life in union with God and the saints.",
+  "notes": null,
+  "tags": [
+    "afterlife",
+    "heaven"
+  ],
+  "sourcesOfTruth": [
+    "Bible",
+    "Catechism of the Catholic Church"
+  ],
+  "sourceEntityIds": [
+    "ent-bible-book",
+    "ent-catechism"
+  ]
+}

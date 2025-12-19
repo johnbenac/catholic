@@ -1,0 +1,19 @@
+{
+  "type": "entity",
+  "id": "ent-purgatory",
+  "movementId": "mov-catholic",
+  "name": "Purgatory",
+  "kind": "place",
+  "summary": "A state of purification for those who die in God's grace but are not yet fully perfected.",
+  "notes": null,
+  "tags": [
+    "afterlife",
+    "purgatory"
+  ],
+  "sourcesOfTruth": [
+    "Catechism of the Catholic Church"
+  ],
+  "sourceEntityIds": [
+    "ent-catechism"
+  ]
+}

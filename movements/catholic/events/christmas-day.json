@@ -1,0 +1,28 @@
+{
+  "type": "event",
+  "id": "ev-christmas-day",
+  "movementId": "mov-catholic",
+  "name": "Christmas Day",
+  "description": "Feast celebrating the birth of Jesus Christ.",
+  "recurrence": "yearly",
+  "timingRule": "December 25 each year.",
+  "notes": null,
+  "tags": [
+    "christmas",
+    "feast"
+  ],
+  "mainPracticeIds": [
+    "pr-sunday-mass"
+  ],
+  "mainEntityIds": [
+    "ent-jesus-christ",
+    "ent-virgin-mary"
+  ],
+  "readingTextIds": [
+    "txt-nt-gospels",
+    "txt-commentary-on-mary"
+  ],
+  "supportingClaimIds": [
+    "clm-mary-mother-of-god"
+  ]
+}

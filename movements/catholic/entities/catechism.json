@@ -1,0 +1,17 @@
+{
+  "type": "entity",
+  "id": "ent-catechism",
+  "movementId": "mov-catholic",
+  "name": "Catechism of the Catholic Church",
+  "kind": "object",
+  "summary": "A reference text that systematically presents Catholic doctrine, morals, and worship.",
+  "notes": null,
+  "tags": [
+    "catechism",
+    "doctrine"
+  ],
+  "sourcesOfTruth": [
+    "Magisterium of the Catholic Church"
+  ],
+  "sourceEntityIds": []
+}

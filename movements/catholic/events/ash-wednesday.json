@@ -1,0 +1,26 @@
+{
+  "type": "event",
+  "id": "ev-ash-wednesday",
+  "movementId": "mov-catholic",
+  "name": "Ash Wednesday",
+  "description": "The first day of Lent, marked by receiving ashes on the forehead as a sign of repentance.",
+  "recurrence": "yearly",
+  "timingRule": "46 days before Easter Sunday.",
+  "notes": null,
+  "tags": [
+    "lent",
+    "penance"
+  ],
+  "mainPracticeIds": [
+    "pr-lenten-fasting"
+  ],
+  "mainEntityIds": [
+    "ent-lent-season"
+  ],
+  "readingTextIds": [
+    "txt-moral-rule-summary"
+  ],
+  "supportingClaimIds": [
+    "clm-lent-penance"
+  ]
+}

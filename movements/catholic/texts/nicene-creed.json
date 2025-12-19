@@ -1,0 +1,21 @@
+{
+  "type": "text",
+  "id": "txt-nicene-creed",
+  "movementId": "mov-catholic",
+  "parentId": null,
+  "level": "work",
+  "title": "Nicene Creed (summary)",
+  "label": "Nicene Creed",
+  "content": null,
+  "mainFunction": "teaching",
+  "tags": [
+    "creed",
+    "liturgy"
+  ],
+  "mentionsEntityIds": [
+    "ent-god-father",
+    "ent-god-son",
+    "ent-holy-spirit",
+    "ent-church-universal"
+  ]
+}

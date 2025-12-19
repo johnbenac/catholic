@@ -1,0 +1,19 @@
+{
+  "type": "text",
+  "id": "txt-our-father",
+  "movementId": "mov-catholic",
+  "parentId": null,
+  "level": "work",
+  "title": "The Lord's Prayer (Our Father) paraphrase",
+  "label": "Our Father",
+  "content": null,
+  "mainFunction": "prayer_or_song",
+  "tags": [
+    "prayer",
+    "lord_prayer"
+  ],
+  "mentionsEntityIds": [
+    "ent-god-father",
+    "ent-jesus-christ"
+  ]
+}

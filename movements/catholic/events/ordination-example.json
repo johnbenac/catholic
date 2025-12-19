@@ -1,0 +1,20 @@
+{
+  "type": "event",
+  "id": "ev-ordination-example",
+  "movementId": "mov-catholic",
+  "name": "Ordination of a Priest (example)",
+  "description": "A one-time celebration of the sacrament of Holy Orders for a specific candidate.",
+  "recurrence": "once",
+  "timingRule": "On a particular date chosen by the bishop.",
+  "notes": null,
+  "tags": [
+    "ordination",
+    "holy_orders"
+  ],
+  "mainPracticeIds": [],
+  "mainEntityIds": [
+    "ent-church-universal"
+  ],
+  "readingTextIds": [],
+  "supportingClaimIds": []
+}

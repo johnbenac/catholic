@@ -1,0 +1,16 @@
+{
+  "type": "textCollection",
+  "id": "tc-catholic-catechism",
+  "movementId": "mov-catholic",
+  "name": "Catechism and Creeds",
+  "description": "Key doctrinal summaries such as the Catechism of the Catholic Church and the Nicene Creed.",
+  "tags": [
+    "catechism",
+    "creed",
+    "doctrine"
+  ],
+  "rootTextIds": [
+    "txt-catechism-root",
+    "txt-nicene-creed"
+  ]
+}

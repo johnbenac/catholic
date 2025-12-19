@@ -1,0 +1,17 @@
+{
+  "type": "entity",
+  "id": "ent-diocese",
+  "movementId": "mov-catholic",
+  "name": "Diocese",
+  "kind": "being",
+  "summary": "A regional grouping of parishes under the leadership of a bishop.",
+  "notes": null,
+  "tags": [
+    "diocese",
+    "jurisdiction"
+  ],
+  "sourcesOfTruth": [
+    "Canon law"
+  ],
+  "sourceEntityIds": []
+}

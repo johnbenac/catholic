@@ -1,0 +1,20 @@
+{
+  "type": "text",
+  "id": "txt-commentary-on-mary",
+  "movementId": "mov-catholic",
+  "parentId": "txt-catechism-root",
+  "level": "passage",
+  "title": "On Mary, Mother of God (commentary summary)",
+  "label": "Mary Commentary",
+  "content": null,
+  "mainFunction": "commentary",
+  "tags": [
+    "mary",
+    "commentary"
+  ],
+  "mentionsEntityIds": [
+    "ent-virgin-mary",
+    "ent-jesus-christ",
+    "ent-church-universal"
+  ]
+}

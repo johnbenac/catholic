@@ -1,0 +1,34 @@
+{
+  "type": "rule",
+  "id": "rl-no-meat-fridays-lent",
+  "movementId": "mov-catholic",
+  "shortText": "Abstain from meat on Fridays in Lent.",
+  "kind": "must_not_do",
+  "details": "On Fridays during Lent, Catholics of appropriate age are asked not to eat meat as a small act of penance.",
+  "appliesTo": [
+    "Catholic faithful of required age"
+  ],
+  "domain": [
+    "penance",
+    "diet"
+  ],
+  "tags": [
+    "lent",
+    "fasting",
+    "abstinence"
+  ],
+  "supportingTextIds": [
+    "txt-moral-rule-summary"
+  ],
+  "supportingClaimIds": [
+    "clm-lent-penance"
+  ],
+  "relatedPracticeIds": [
+    "pr-lenten-fasting"
+  ],
+  "sourcesOfTruth": [
+    "Canon law",
+    "bishops' conference guidelines"
+  ],
+  "sourceEntityIds": []
+}

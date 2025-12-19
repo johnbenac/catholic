@@ -1,0 +1,25 @@
+{
+  "type": "media",
+  "id": "med-hymn-text",
+  "movementId": "mov-catholic",
+  "kind": "text",
+  "uri": "https://example.com/text/hymn.txt",
+  "title": "Hymn Text Excerpt",
+  "description": "A short hymn text praising the Trinity (example, not an actual hymn).",
+  "tags": [
+    "hymn",
+    "text"
+  ],
+  "linkedEntityIds": [
+    "ent-god-trinity"
+  ],
+  "linkedPracticeIds": [
+    "pr-sunday-mass"
+  ],
+  "linkedEventIds": [
+    "ev-sunday-mass"
+  ],
+  "linkedTextIds": [
+    "txt-catechism-trinity"
+  ]
+}

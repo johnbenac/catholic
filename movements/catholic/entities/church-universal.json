@@ -1,0 +1,19 @@
+{
+  "type": "entity",
+  "id": "ent-church-universal",
+  "movementId": "mov-catholic",
+  "name": "The Catholic Church",
+  "kind": "idea",
+  "summary": "The worldwide community of believers united in faith, sacraments, and governance under the Pope and bishops.",
+  "notes": null,
+  "tags": [
+    "church",
+    "community"
+  ],
+  "sourcesOfTruth": [
+    "Catechism of the Catholic Church"
+  ],
+  "sourceEntityIds": [
+    "ent-catechism"
+  ]
+}

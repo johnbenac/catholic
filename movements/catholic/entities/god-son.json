@@ -1,0 +1,21 @@
+{
+  "type": "entity",
+  "id": "ent-god-son",
+  "movementId": "mov-catholic",
+  "name": "God the Son",
+  "kind": "being",
+  "summary": "The second person of the Trinity, who became incarnate as Jesus Christ.",
+  "notes": null,
+  "tags": [
+    "god",
+    "son"
+  ],
+  "sourcesOfTruth": [
+    "Bible",
+    "Catechism of the Catholic Church"
+  ],
+  "sourceEntityIds": [
+    "ent-bible-book",
+    "ent-catechism"
+  ]
+}
