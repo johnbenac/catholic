@@ -1,17 +1,60 @@
-# Catholic Movement Data (atomized repo)
+# Catholic Movement Data (markdown-only repo)
 
-This repository is an **atomized** movement dataset intended for Git-based workflows (add/remove/edit single nodes as single files).
+This repository is an **atomized**, **markdown-first** movement dataset intended for Git-based workflows.
 
-## Layout
-
-- `movements/<movementSlug>/movement.json` — movement header
-- `movements/<movementSlug>/<type>/<idSlug>.json` — one file per node
-- `movements/<movementSlug>/texts/<textSlug>.md` — optional markdown content for a text node
+- One node = one file.
+- No JSON.
+- YAML front matter holds structured fields.
+- Markdown body holds the “main text” for the node.
 
 This repo currently contains one movement: `mov-catholic` (movement slug: `catholic`).
 
-> Note: Content was converted from a single-file JS dataset (`movements/catholic-church-data.js`, version `3.6`) into this folder-based structure. No semantic content was changed; text `content` strings were moved into adjacent `.md` files.
+## Layout
 
-## Source
+- `movements/<movementSlug>/movement.md` — movement header (front matter + summary)
+- `movements/<movementSlug>/<collection>/*.md` — one file per node
 
-- `source/movements/catholic-church-data.js` is a verbatim copy of the original single-file dataset used as the conversion input.
+Collections:
+
+- `texts`
+- `textCollections`
+- `entities`
+- `practices`
+- `events`
+- `rules`
+- `claims`
+- `media`
+- `notes`
+
+## Obsidian-friendly links
+
+Every file includes an `aliases` entry equal to its canonical id (e.g. `ent-jesus-christ`), so you can link between nodes with simple wiki links like:
+
+- `[[ent-jesus-christ]]`
+- `[[txt-nicene-creed]]`
+- `[[pr-sunday-mass]]`
+
+These links are used throughout the front matter arrays (e.g. `mentionsEntityIds`, `supportingTextIds`, etc.) so Obsidian can build a graph and backlinks automatically.
+
+## “Main text” field mapping
+
+The markdown body is treated as the primary text field for each node type:
+
+- **Movement** → `summary`
+- **TextNode** (`type: text`) → `content`
+- **Entity** → `summary`
+- **Practice** → `description`
+- **Event** → `description`
+- **Rule** → `details`
+- **Claim** → `text`
+- **MediaAsset** (`type: media`) → `description`
+- **Note** → `body`
+- **TextCollection** → `description`
+
+## Source / provenance
+
+This dataset was converted from an earlier single-file JS dataset (`movements/catholic-church-data.js`, version `3.6`).
+
+No semantic content was changed during the conversion:
+- JSON fields became YAML front matter.
+- The “main text” fields became markdown bodies.

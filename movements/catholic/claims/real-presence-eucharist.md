@@ -1,0 +1,25 @@
+---
+type: claim
+id: clm-real-presence-eucharist
+movementId: mov-catholic
+category: sacramental_theology
+tags:
+- eucharist
+- real_presence
+sourceTextIds:
+- '[[txt-luke-last-supper]]'
+- '[[txt-catechism-eucharist]]'
+aboutEntityIds:
+- '[[ent-eucharist-sacrament]]'
+- '[[ent-eucharist-host]]'
+- '[[ent-jesus-christ]]'
+sourcesOfTruth:
+- Catechism of the Catholic Church
+sourceEntityIds:
+- '[[ent-catechism]]'
+notes: null
+aliases:
+- clm-real-presence-eucharist
+---
+
+In the Eucharist, the consecrated bread and wine truly become the body and blood of Christ, while remaining under the appearances of bread and wine.
